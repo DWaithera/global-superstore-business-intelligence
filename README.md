@@ -1,6 +1,6 @@
-﻿# Global Superstore | Business Intelligence & Commercial Analytics
+# Global Superstore | Business Intelligence & Commercial Analytics
 
-**Power BI ┬╖ DAX ┬╖ Power Query ┬╖ Sales Performance ┬╖ Profitability Analysis**
+**Power BI · DAX · Power Query · Sales Performance · Profitability Analysis**
 
 An end-to-end Business Intelligence project exploring commercial performance through sales trends, product profitability, geographic markets, and customer segments. The project demonstrates how transactional data can be transformed into reliable performance measures, interactive dashboards, and evidence-based business recommendations.
 
@@ -125,8 +125,8 @@ The dashboard uses five DAX measures to maintain consistent calculations across 
 | Total Sales | Sum of Sales | Measures recorded sales value |
 | Total Profit | Sum of Profit | Measures reported profit |
 | Total Orders | Distinct count of Order ID | Counts distinct orders |
-| Average Order Value | Total Sales ├╖ Total Orders | Measures average sales value per order |
-| Profit Margin | Total Profit ├╖ Total Sales | Measures reported profit relative to sales |
+| Average Order Value | Total Sales ÷ Total Orders | Measures average sales value per order |
+| Profit Margin | Total Profit ÷ Total Sales | Measures reported profit relative to sales |
 
 ### DAX measures
 
@@ -200,22 +200,22 @@ The repository will contain the following artefacts as they are finalised:
 
 ```text
 global-superstore-business-intelligence/
-Γöé
-Γö£ΓöÇΓöÇ README.md
-Γö£ΓöÇΓöÇ dashboard/
-Γöé   Γö£ΓöÇΓöÇ Global_Superstore_Dashboard.pbix
-Γöé   ΓööΓöÇΓöÇ exports/
-Γö£ΓöÇΓöÇ reports/
-Γöé   Γö£ΓöÇΓöÇ BI_Overview_Report.pdf
-Γöé   ΓööΓöÇΓöÇ Executive_Report.docx
-Γö£ΓöÇΓöÇ documentation/
-Γöé   Γö£ΓöÇΓöÇ KPI_definitions.md
-Γöé   Γö£ΓöÇΓöÇ data_preparation.md
-Γöé   ΓööΓöÇΓöÇ data_dictionary.md
-ΓööΓöÇΓöÇ screenshots/
-    Γö£ΓöÇΓöÇ executive-performance.png
-    Γö£ΓöÇΓöÇ profitability-product-intelligence.png
-    ΓööΓöÇΓöÇ regional-customer-intelligence.png
+│
+├── README.md
+├── dashboard/
+│   ├── Global_Superstore_Dashboard.pbix
+│   └── exports/
+├── reports/
+│   ├── BI_Overview_Report.pdf
+│   └── Executive_Report.docx
+├── documentation/
+│   ├── KPI_definitions.md
+│   ├── data_preparation.md
+│   └── data_dictionary.md
+└── screenshots/
+    ├── executive-performance.png
+    ├── profitability-product-intelligence.png
+    └── regional-customer-intelligence.png
 ```
 
 The final structure must match the files actually committed to GitHub.
