@@ -44,24 +44,6 @@ Explores geographic performance and compares sales and profit across customer se
 
 **Business application:** Investigate differences across markets and customer groups to help prioritise further analysis.
 
-### Dashboard Screenshots
-
-Add screenshots exported from the completed Power BI report.
-
-**Executive Performance**
-
-![Executive Performance dashboard](screenshots/executive-performance.png)
-
-**Profitability & Product Intelligence**
-
-![Profitability and Product Intelligence dashboard](screenshots/profitability-product-intelligence.png)
-
-**Regional & Customer Intelligence**
-
-![Regional and Customer Intelligence dashboard](screenshots/regional-customer-intelligence.png)
-
-*These image paths must match the actual filenames uploaded to the repository.*
-
 ## 3. Key Findings & Business Recommendations
 
 The dashboard supports analysis of revenue contribution, profitability differences, product performance, and customer segments. The final published findings must be supported by verified values from the completed report.
